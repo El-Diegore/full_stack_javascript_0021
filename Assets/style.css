@@ -1,5 +1,6 @@
 body{
-    background-color: orange;
+    background-color: rgb(243, 203, 128);
+
     
 }
 .container{
@@ -18,4 +19,5 @@ h1{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
     display: block;
 text-align: center;
+background-color:  rgb(252, 177, 36);
 }
