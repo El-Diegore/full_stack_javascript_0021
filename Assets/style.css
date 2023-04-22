@@ -1,0 +1,21 @@
+body{
+    background-color: orange;
+    
+}
+.container{
+    margin-top: 5%;
+}
+.card{
+    background-color: rgb(215, 215, 215);
+    flood-opacity: 90%;
+}
+h1{
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+
+}
+#pie{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    display: block;
+text-align: center;
+}
