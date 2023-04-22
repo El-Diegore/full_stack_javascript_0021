@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="./Assets/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand " href="#">
+            <img class="navbar-brand " style="width: 45px; margin-left: 10px;" src="./Assets/img/pngwingcom.png" alt="digimon logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link active" href="#">Home <!-- <span class="sr-only">Inicio</span></a> -->
+            <!-- <a class="nav-item nav-link" href="#">Features</a>
+            <a class="nav-item nav-link" href="#">Pricing</a>
+            <a class="nav-item nav-link disabled" href="#">Disabled</a>
+             -->
+                <input class="nav-item" id="Buscar" type="text" placeholder="Buscar Digimon...">
+                <a style="margin-left: 10px; margin:auto" onclick="mostrarDigimon()" id="boton" class="nav-item btn btn-secondary" data-bs-toggle="modal" data-bs-target="#exampleModalCenter">Buscar</a>
+            
+          </div>
+        </div>
+      </nav>
+      <h1>Bienvenidos</h1>
+      <hr>
+    <div class="container" >
+        <div class="row" id="container_card">
+        </div>
+    </div>
+
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header" style="margin: auto;">
+          <h5 id="nombreDigi"class="modal-title" id="exampleModalLongTitle"></h5>
+          
+        </div>
+        <div id="imgDigi"class="modal-body">
+        </div>
+        <div id="lvlDigi" style="margin:auto; ">
+         
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <script src="./Assets/script.js"></script>
+<footer>
+  <label id="pie" for="">Diego Pinto Pinto 2023</label>
+</footer>
+</body>
+</html>
