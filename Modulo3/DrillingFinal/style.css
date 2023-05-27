@@ -1,0 +1,36 @@
+#greenbox {
+   display: grid;
+   align-items: center;
+  background-color: rgb(73, 220, 105);
+  width: 400px;
+  height: 100px;
+  border-radius: 10px;
+}
+#redbox {
+   display: grid;
+   align-items: center;
+  background-color: rgba(255, 0, 0, 0.274);
+  width: 400px;
+  height: 200px;
+  border-radius: 10px;
+}
+#div1 {
+  display: flex;
+  text-align: center;
+} 
+#div2{
+   display: flex;
+   margin-top: 40px;
+   text-align: center;
+}
+#Saldos{
+   display: inline-flex;
+}
+.col-sm-6{
+   display: inline-flex;
+   margin: auto;
+}
+#labelPresu, #labelGastos, #labelSaldo{
+   border: 0;
+   text-align: center;
+}
